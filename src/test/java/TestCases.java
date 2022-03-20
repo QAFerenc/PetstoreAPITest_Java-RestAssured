@@ -10,7 +10,6 @@ import org.json.simple.JSONObject;
 
 public class TestCases {
 
-
     @Test
     public void getAvailablePets()
     {
@@ -23,30 +22,20 @@ public class TestCases {
                 .assertThat()
                 .statusCode(200);
     }
+
     @Test
     public void postNewAvailablePet()
     {
 
     }
+    
     @Test
     public void updateLastPetStatus()
     {
 
         String url = "https://petstore.swagger.io/v2/pet/";
         RestAssured.baseURI =  "https://petstore.swagger.io/v2";
-        /*JSONObject test = new JSONObject();
-                test.put(
-                        "Employee ID", "092789");
-                +
-                        "Employee Name: Helen Mirren," +
-                        "Age: 27, " +
-                        "Designation: Assistant Manager," +
-                        "City: Florida," +
-                        "Salary: 67000.00, " +
-                        "Experience: 26 " +
-                        "}"
-        );*/
-
+        
         JSONObject obj = new JSONObject();
                 obj.put ("id","9223372000668885684");
         obj.put ("category","{id :0,name:string}");
@@ -56,7 +45,6 @@ public class TestCases {
         obj.put ("status","sold");
 
         RequestSpecification request = RestAssured.given();
-
 
         request
                 .contentType("application/json" )
@@ -69,6 +57,7 @@ public class TestCases {
         System.out.println(response.asString());
         Assert.assertEquals(statusCode, 200);
     }
+    
     @Test
     public void deleteLastPet()
     {
