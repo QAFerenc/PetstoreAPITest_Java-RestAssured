@@ -45,7 +45,7 @@ public class TestCases {
 
         // Test 2: Add a new pet from .json source file  (POST)
 
-        File file = new File("C:\\Users\\hp\\IdeaProjects\\RestAssured_Test\\src\\test\\java\\data.json");
+        File file = new File("petToUpload.json");;
 
         request = RestAssured.given();
 
