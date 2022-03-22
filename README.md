@@ -3,14 +3,17 @@ This test task is part of an interview process
 
 Environment :
 
-    Development tools :  Java, RestAssured
-    IDE               :  IntelliJ
-    Operating system  :  Windows 10
+    Development tools :  Java 1.8.0_261, RestAssured
+    IDE               :  IntelliJ IDEA 2019.2 (Community Edition)
+    Operating system  :  Microsoft Windows 10 Pro (ver: 10.0.19042)
     
     
 Code : - the source code executes the tests described in the task description
 
        - the code does some additional testing, such as "trying to delete already deleted pet", "trying to get not existing pet (because it was deleted)
+       
+       
+Test execution : the tests were executed from IntelliJ
 
     
    
