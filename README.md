@@ -9,6 +9,7 @@ Environment :
     
     
 Code : - the source code executes the tests described in the task description
+
        - the code does some additional testing, such as "trying to delete already deleted pet", "trying to get not existing pet (because it was deleted)
 
     
