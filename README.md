@@ -9,7 +9,7 @@ Environment :
     
     
     
-Video link of execution : https://www.youtube.com/watch?v=HFPFpn0O95Y
+Running video : https://www.youtube.com/watch?v=HFPFpn0O95Y
         
 Code : - the source code executes the tests described in the task description
 
