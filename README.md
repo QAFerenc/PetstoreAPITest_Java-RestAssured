@@ -8,6 +8,9 @@ Environment :
     Operating system  :  Microsoft Windows 10 Pro (ver: 10.0.19042)
     
     
+    
+Video link of execution : https://www.youtube.com/watch?v=HFPFpn0O95Y
+        
 Code : - the source code executes the tests described in the task description
 
        - the code does some additional testing, such as "trying to delete already deleted pet", "trying to get not existing pet (because it was deleted)
