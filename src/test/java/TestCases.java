@@ -114,7 +114,6 @@ public class TestCases {
 
         // Test 6 : Already deleted pet does not exist    (GET)
 
-        //url = "https://petstore.swagger.io/v2/pet/"+id;
         given()
                 .when()
                 .get(url+"/pet/"+id)
