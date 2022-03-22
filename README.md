@@ -10,6 +10,8 @@ Environment :
     
     
 Running video : https://www.youtube.com/watch?v=HFPFpn0O95Y
+
+Screenshot    : screenshots\test_results.png
         
 Code : - the source code executes the tests described in the task description
 
