@@ -1,4 +1,4 @@
-# WebStore automated tests with RestAssured
+# WebStore automated API tests with RestAssured
 
 Task :
 
