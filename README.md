@@ -2,7 +2,7 @@
 
 Task :
 
-Creeate the following automated API tests for DEMO PET STORE  https://petstore.swagger.io/ :
+Create the following automated API tests for DEMO PET STORE  https://petstore.swagger.io/ :
 
     Get "available" pets. Assert expected result
     Post a new available pet to the store. Assert new pet added.
