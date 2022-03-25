@@ -1,4 +1,4 @@
-# WebStore automated API tests with RestAssured
+# WebStore automated API tests (Technology : Java, RestAssured)
 
 Task :
 
